@@ -1,0 +1,29 @@
+.boe {
+  color: aqua;
+  font-size: 250%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  background-color: black;
+}
+
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+  width: 300px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: aqua;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ .me{ width:300px;}
+ .bom{text-align: center;}
+
+ .boom img{text-align:center;
+}

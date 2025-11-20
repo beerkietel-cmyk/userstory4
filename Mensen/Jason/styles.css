@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  /* margin: 0%; */
+  background-color: rgb(203, 255, 209);
+  background-image: url("Photos/vapor.png");
+  background-size: cover;
+  /* cursor: url('Normal\ Select.png'), auto; */
+  overflow: hidden;
+}
+
+.top { /* hier doet dit ...*/
+  background-color: rgba(210, 92, 196, 0.587);
+  padding: 1vh;
+  border-radius: 2vh;
+  box-shadow: 1vw 1vh 1vh rgba(0, 0, 0, 0.207);
+  width: 50%;
+  height: 70%;
+  margin: 0 auto;
+  backdrop-filter: blur(15%);
+  -webkit-backdrop-filter: blur(2%);
+  overflow: hidden;
+}
+.navbar {
+  background-color: rgba(178, 14, 156, 0.8);
+  padding: 1.38vh;
+  border-radius: 0.92vh;
+  box-shadow: 0.52vw 0.46vh 0.46vh rgba(0, 0, 0, 0.207);
+  width: 95%;
+  height: 4.63vh;
+  margin: 0vw auto;
+  text-align: left;
+  align-items: center;
+  font-size: 2.31vh;
+  overflow: hidden;
+}
+
+.linktext {
+  margin-right: 1.04vw;
+  color: #000000;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo {
+  /* background-color: black; */
+  object-position: left;
+  object-fit: cover;
+  width: 15.63vw;
+  height: 9.26vh;
+  vertical-align: middle;
+  /* margin-right: -100px; */
+  margin-left: -3.91vw;
+  margin-top: -2.31vh;
+}
+
+.content {
+  background-color: rgba(203, 16, 157, 0.328);
+  padding: 1.38vh;
+  border-radius: 0.92vh;
+  box-shadow: 0.52vw 0.46vh 0.46vh rgba(0, 0, 0, 0.207);
+  /* outline: 2px solid rgba(0, 0, 0, 0.207); */
+  width: 95%;
+  height: 53.7vh;
+  margin: 0.92vh auto;
+  font-size: 2.04vh;
+  overflow-y: auto;
+  overflow: hidden;
+}
+
+.profile-pic {
+  height: 23.15vh;
+  /* border-radius: 50%; */
+  margin: 1.85vh auto;
+  margin-left: 1.04vw;
+  box-shadow: 0.52vw 0.46vh 0.46vh rgba(0, 0, 0, 0.207);
+  /* border: 3px solid rgba(0, 0, 0, 0.207); */
+}
+
+.text {
+  background-color: rgba(203, 16, 156, 0);
+  padding: 1.38vh;
+  border-radius: 0.92vh;
+  box-shadow: 0.52vw 0.46vh 0.46vh rgba(0, 0, 0, 0);
+
+  /* outline: 2px solid rgba(0, 0, 0, 0.207); */
+  width: 70%;
+  height: 46.3vh;
+  margin: -25vh auto;
+  margin-left: 11.98vw;
+  overflow-y: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
+}
+
+.linebreakbegone {
+  margin-top: -1.38vh;
+}
+
+.hamster-pic {
+  height: 18.52vh;
+  /* border-radius: 50%; */
+  margin: -18.52vh auto;
+  margin-left: -7.81vw;
+  /* position: 400px; */
+  /* box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.207); */
+  /* border: 3px solid rgba(0, 0, 0, 0.207); */
+}
