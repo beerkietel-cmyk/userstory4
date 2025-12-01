@@ -1,25 +1,15 @@
-h1 {
+.maxh3 .maxh2 .maxh1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-h3 h2 h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-h1 {
+.maxh1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 60px;
   font: bolder;
 }
 
-h1 {
-  text-align: center;
-  color: aliceblue;
-}
-
-h1 {
-  font-size: 60px;
-}
-
-h3 {
+.maxh3 {
   width: 150px;
   font-size: 131%;
 }
@@ -27,16 +17,11 @@ h3 {
 .move-down {
   margin-top: 110px;
   font-size: xx-large;
+  color: #f0f8ff;
 }
 
 .foto_max {
   margin-top: 170px;
-}
-
-.move-down {
-  margin-top: 110px;
-  font-size: xx-large;
-  color: #f0f8ff;
 }
 
 li {
@@ -66,9 +51,6 @@ li {
   padding: 12px 16px;
   border-radius: 24px 24px 24px 24px;
   margin-top: 0px;
-}
-
-.vierkant {
   text-align: center;
 }
 
@@ -83,11 +65,6 @@ li {
   overflow: hidden;
   margin-top: 25px;
 }
-
-
-
-
-
 
 .inner-content {
   transform: translateY(0px);
@@ -185,73 +162,15 @@ nav {
   font-size: 125%;
 }
 
-.text2 {
-  margin-left: 400px;
-  margin-top: -500px;
-  color: #f0f8ff;
-}
-
-.text2 {
+.info {
   background-color: rgba(0, 102, 5, 0.5);
   height: 550px;
-  width: 1250px;
-  border-radius: 15px;
-  padding: 10px;
-  color: white;
-  transform: translateY(50px);
-  position: relative;
-  overflow: hidden;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: -27%;
+  border-radius: 10px;
 }
 
-.text2 {
-  font-size: 200%;
-}
-
-.text3 {
-  font-size: large;
-  height: 550px;
-  width: 1250px;
-  border-radius: 15px;
-  padding: 10px;
+.white {
   color: white;
-  margin-left: 400px;
-  margin-top: -520px;
-  position: relative;
-}
-
-.text4 {
-  font-size: 200%;
-  height: 550px;
-  width: 1250px;
-  border-radius: 15px;
-  padding: 10px;
-  color: white;
-  margin-left: 400px;
-  margin-top: -550px;
-  position: relative;
-}
-
-
-.text6 {
-  font-size: 200%;
-  height: 550px;
-  width: 1250px;
-  border-radius: 15px;
-  padding: 10px;
-  color: white;
-  margin-left: 400px;
-  margin-top: -550px;
-  position: relative;
-}
-
-.text7 {
-  font-size: large;
-  height: 550px;
-  width: 1250px;
-  border-radius: 15px;
-  padding: 10px;
-  color: white;
-  margin-left: 400px;
-  margin-top: -570px;
-  position: relative;
 }

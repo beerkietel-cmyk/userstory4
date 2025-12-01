@@ -1,6 +1,4 @@
-
-.section-alan
-{ 
+.section-alan {
     font-size: 18px;
     font-style: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -25,20 +23,20 @@
     justify-content: left;
 }
 
-#main-alan > div {
+#main-alan>div {
     height: 277.56px;
     border: 1px solid rgb(255, 255, 255);
     width: 515.05px;
     text-align: center;
     background-image: url(https://scitechdaily.com/images/Black-Hole-Event-Horizon-Artistic-Illustration.jpg);
-    object-fit:cover;
+    object-fit: cover;
     background-size: 570px;
     background-repeat: no-repeat;
     margin-top: -278px;
 }
 
-nav {
-    text-shadow: 25%;;
+.navalan {
+    text-shadow: 25%;
     background-color: rgba(255, 255, 255, 0.304);
     border: 0.65px solid rgb(255, 255, 255);
     text-align: center;
@@ -68,11 +66,11 @@ nav {
     height: 40px;
 }
 
-nav > h3 {
+.navalan>h3 {
     font-size: 28px;
 }
 
-#main-alan > .section-alan > h4 {
+#main-alan>.section-alan>h4 {
     text-align: center;
     font-size: 26px;
     color: aqua;
@@ -84,12 +82,12 @@ nav > h3 {
     right: 9.45vw;
 }
 
-#main-alan > .section-alan > h5 { 
+#main-alan>.section-alan>h5 {
     font-size: 24px;
     text-align: left;
 }
 
-#footer-alan > img { 
+#footer-alan>img {
     margin-top: -393px;
     border: 0.65px solid rgb(255, 255, 255);
     justify-content: left;
