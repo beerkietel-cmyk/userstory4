@@ -27,7 +27,7 @@ nav a {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -95,30 +95,6 @@ a {
 .box:nth-child(4):hover {
   transform: translate(0%, -20%) scale(1.05);
   box-shadow: 25px 50px 20px rgba(0, 0, 0, 0.459);
-}
-
-@media only screen and (max-width: 767px) {
-
-  /* Hub aanpassingen voor telefoon */
-  .content {
-    flex-direction: column;
-  }
-
-  .box {
-    max-width: 50%;
-    align-self: center;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-  }
-}
-
-@media only screen and (min-width: 767px) and (max-width: 1023px) {
-
-  /* Hub aanpassingen voor tablet */
-  .content {
-    flex-wrap: wrap;
-  }
 }
 
 /* CSS KEVIN */
@@ -445,49 +421,102 @@ h2 {
 /* JASON CSS */
 
 .jasonbody {
-  font-family: Arial, sans-serif;
-  background-color: rgb(203, 255, 209);
+  /* font-family: Arial, sans-serif;
+  bckground-color: rgb(203, 255, 209);
+  backgaround-image: url("/Mensen/Jason/Photos/vapor.png");
+  background-size: cover;
+  overflow: hidden; */
+  justify-content: center;
   background-image: url("/Mensen/Jason/Photos/vapor.png");
   background-size: cover;
-  overflow: hidden;
+}
+
+.jasonflex {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  justify-content: center;
+  flex-direction: row;
+
 }
 
 .jasoncontent {
-  background-color: rgba(203, 16, 157, 0.328);
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(210, 92, 196, 0.587);
   border-radius: 15px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.207);
   width: 70%;
-  height: 500px;
-  margin: 20px auto;
-  font-size: 2vh;
-  overflow-y: auto;
-  overflow: hidden;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.315);
+}
+
+.pics {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 }
 
 .profile-pic {
-  height: 200px;
-  margin: 20px auto;
-  margin-left: 1.04vw;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.207);
+  max-height: 200px;
 }
 
-.text {
-  padding: 20px;
-  width: 70%;
-  height: 100%;
-  margin: -250px auto;
-  overflow-y: auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  overflow: hidden;
+@media only screen and (max-width: 767px) {
+
+  /* Hub aanpassingen voor telefoon */
+  .content {
+    flex-direction: column;
+  }
+
+  .box {
+    max-width: 50%;
+    align-self: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .jasonbody {
+    background-size: inherit;
+  }
+
+  .jasonflex {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+
+  .jasoncontent {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .pics {
+    flex-direction: row;
+  }
+
+  footer {
+    position: static;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(221, 0, 105);
+  }
 }
 
-.linebreakbegone {
-  margin-top: -20px;
-}
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
 
-.hamster-pic {
-  height: 150px;
-  margin: -150px auto;
-  margin-left: -150px;
+  /* Hub aanpassingen voor tablet */
+  .content {
+    flex-wrap: wrap;
+  }
+
+  .jasonbody {
+    background-size: inherit;
+  }
+
+  .jasoncontent {
+    flex-direction: row;
+    width: 80%;
+  }
 }
